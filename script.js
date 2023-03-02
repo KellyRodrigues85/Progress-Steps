@@ -15,7 +15,7 @@ next.addEventListener('click', () => {
     update()
 })
 
-prev.addEventL  istener('click', () => {
+prev.addEventListener('click', () => {
     currentActive--
 
     if(currentActive < 1) {
